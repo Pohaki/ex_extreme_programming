@@ -1,0 +1,4 @@
+img Kent = http://farm3.static.flickr.com/2313/2540885976_74502532a3.jpg
+img_cycle= https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Extreme_Programming.svg/2000px-Extreme_Programming.svg.png
+img_cycle 2= https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Extreme_programming.svg/729px-Extreme_programming.svg.png
+video = https://youtu.be/d4qldY0g_dI

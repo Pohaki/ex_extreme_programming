@@ -1,0 +1,26 @@
+Qu'est-ce que l'extreme programming (XP) ?
+
+L'extreme programming a été inventée par Kent Beck, Ward Cunningham et Ron Jeffries pendant leur travail sur un projet « C3 » de calcul des rémunérations chez Chrysler1,2. Kent Beck, chef de projet en mars 1996 commença à affiner la méthode de développement utilisée sur le projet. Celle-ci est née officiellement en octobre 1999 avec le livre Extreme Programming Explained de Kent Beck.
+
+Son but principal est de réduire les coûts du changement. Dans les méthodes traditionnelles, les besoins sont définis et souvent fixés au départ du projet informatique ce qui accroît les coûts ultérieurs de modifications. XP s'attache à rendre le projet plus flexible et ouvert au changement en introduisant des valeurs de base, des principes et des pratiques.
+
+Les valeurs de base sont la Communication, la Simplicité, le Feedback, le Courage et du Respect.
+
+Les principes de cette méthode ne sont pas nouveaux. L'originalité de la méthode est de les pousser à l'extrême.
+
+
+Les pratiques utilisé par l'XP :
+
+la revue de code est une bonne pratique, elle sera faite en permanence (par un binôme)
+les tests sont utiles, ils seront faits systématiquement avant chaque mise en œuvre
+la conception est importante, elle sera faite tout au long du projet (refactoring)
+la simplicité permet d'avancer plus vite, nous choisirons toujours la solution la plus simple
+la compréhension est importante, nous définirons et ferons évoluer ensemble des métaphores
+l'intégration des modifications est cruciale, nous l'effectuerons plusieurs fois par jour
+les besoins évoluent vite, nous ferons des cycles de développement très rapides pour nous adapter au changement
+
+Le codage en binome
+La programmation se fait par deux. Le premier appelé driver (ou pilote) tient le clavier. C'est lui qui va travailler sur la portion de code à écrire. Le second appelé partner (ou copilote) est là pour l'aider en suggérant de nouvelles possibilités ou en décelant d'éventuels problèmes. Les développeurs changent fréquemment de partenaire ce qui permet d'améliorer la connaissance collective de l'application et d'améliorer la communication au sein de l'équipe.
+
+
+Le cycle de developpement.
