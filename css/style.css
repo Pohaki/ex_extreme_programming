@@ -1,27 +1,63 @@
+@font-face {
+    font-family: 'aaarghnormal';
+    src: url('fonts/aaargh_normal_macroman/Aaargh-webfont.eot');
+    src: url('fonts/aaargh_normal_macroman/Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aaargh_normal_macroman/Aaargh-webfont.woff') format('woff'),
+         url('fonts/aaargh_normal_macroman/Aaargh-webfont.ttf') format('truetype'),
+         url('fonts/aaargh_normal_macroman/Aaargh-webfont.svg#aaarghnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('fonts/kaushan_script/ks-webfont.eot');
+    src: url('fonts/kaushan_script/ks-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/kaushan_script/ks-webfont.woff2') format('woff2'),
+         url('fonts/kaushan_script/ks-webfont.woff') format('woff'),
+         url('fonts/kaushan_script/ks-webfont.ttf') format('truetype'),
+         url('fonts/kaushan_script/ks-webfont.svg#kaushan_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.clear{
+    clear: both;
+}
 .container{
     width: 90%;
     margin: 0 auto;
 }
 header{
     height: 10%;
-    border-bottom: 1px solid black;
+    border-bottom: 5px solid #EC493C;
+    background-color: #F2F2F2;
 }
 h1{
+    display: inline;
+    width: 50%;
+    margin-left: 24%;
     font-size: 3.5em;
     text-align: center;
-    color: red;
-    background-color: black;
+    color: #EC493C;
+    text-shadow: 1px 2px 4px 3px;
+    font-family: 'kaushan_scriptregular';
 }
 .what{
     display: inline-block;
     width: 65%;
 }
 h3{
+    margin-top: 7%%;
     font-size: 2em;
+    border-bottom: 2px solid #EC493C;
+    text-align: center;
+}
+p,li,h3,h4,h5{
+     font-family: 'aaarghnormal';
 }
 .what > p{
     text-align: justify;
-    font-size: 1.2em;
 }
 .imgkent{
     width: 35%;
@@ -41,10 +77,6 @@ h3{
   margin-top: 2%;
   margin-left: 27%;
   font-size: 0.8em;
-}
-
-.pratique > h3{
-    text-align: center;
 }
 
 .pratique > ul{
@@ -77,17 +109,46 @@ h4{
     margin-top: 15%;
 }
 
-.cycle > h3{
-    text-align: center;
-}
-
 .cycle > img{
-    display: block;
-    margin-left: 5%;
+    display: inline-block;
+    margin-left: 15%;
 }
 
 .conference > iframe{
     display: block;
     width: 80%;
     margin-left: 10%;
+    margin-top: 5%
+}
+
+footer{
+    height: 60px;
+    margin-top: 5%;
+    background-color: #F2F2F2;
+    border-top: 5px solid #EC493C;
+    box-sizing: border-box;
+}
+footer > h5 {
+    margin-left: 7%;
+    float: left;
+}
+footer > ul {
+    float: right;
+    width: 80%;
+    margin-top: 20px;
+}
+footer > ul > li{
+    display: inline;
+    margin-left: 1%;
+}
+footer > ul > li > a{
+    color: black;
+    text-decoration: none;
+}
+footer > ul > li > a:hover{
+    color: black;
+    text-decoration: underline;
+}
+footer > ul > li > a:visited{
+    color: grey;
 }
