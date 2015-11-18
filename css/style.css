@@ -1,0 +1,93 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    height: 10%;
+    border-bottom: 1px solid black;
+}
+h1{
+    font-size: 3.5em;
+    text-align: center;
+    color: red;
+    background-color: black;
+}
+.what{
+    display: inline-block;
+    width: 65%;
+}
+h3{
+    font-size: 2em;
+}
+.what > p{
+    text-align: justify;
+    font-size: 1.2em;
+}
+.imgkent{
+    width: 35%;
+    float: right;
+    margin-top: 15%;
+}
+.img1{
+    display: inline-block;
+    width:55%;
+    margin-left: 27%;
+    box-shadow: 1px 5px 30px 1px;
+}
+
+.legende1{
+  display: block;
+  width: 55%;
+  margin-top: 2%;
+  margin-left: 27%;
+  font-size: 0.8em;
+}
+
+.pratique > h3{
+    text-align: center;
+}
+
+.pratique > ul{
+    width:70%;
+    margin:0 auto;
+}
+
+li {
+  text-align: justify;
+  margin-top: 1.5%;
+  list-style-type: circle;
+}
+
+h4{
+    text-align: center;
+}
+.binome > img{
+    display: block;
+    float: left;
+    box-shadow: 1px 5px 30px 1px;
+}
+
+.binome > p{
+    display: block;
+    text-align: justify;
+    margin-left: 48%;
+}
+
+.cycle{
+    margin-top: 15%;
+}
+
+.cycle > h3{
+    text-align: center;
+}
+
+.cycle > img{
+    display: block;
+    margin-left: 5%;
+}
+
+.conference > iframe{
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+}
