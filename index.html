@@ -9,14 +9,21 @@
   <div class ="container">
       <header>
         <h1>Extreme programming</h1>
+            <nav>
+              <ul>
+                <li><a href="#what">Qu'est-ce que l'extreme programming (XP) ?</a></li>
+                <li><a href="#pratiques">Pratiques</a></li>
+                <li><a href="#cycle">Cycle de developpement</a></li>
+                <li><a href="#video">Video</a></li>
+              </ul>
+            </nav>
       </header>
-      <div class="clear"></div>
       <section>
         <article class="what">
-          <h3>Qu'est-ce que l'extreme programming (XP) ?</h3>
+          <h3 id="what">Qu'est-ce que l'extreme programming (XP) ?</h3>
             <p>L'extreme programming a été inventée par <strong>Kent Beck</strong>, <strong>Ward Cunningham</strong> et <strong>Ron Jeffries</strong> pendant leur travail sur un projet « C3 » de calcul des rémunérations chez Chrysler1,2. Kent Beck, chef de projet en <strong>mars 1996</strong> commença à affiner la méthode de développement utilisée sur le projet. Celle-ci est née officiellement en <strong>octobre 1999</strong> avec le livre <em>Extreme Programming Explained</em> de <strong>Kent Beck</strong>.</p>
             <p>Son but principal est de <strong>réduire les coûts du changement</strong>. Dans les méthodes traditionnelles, les besoins sont définis et souvent fixés au départ du projet informatique ce qui accroît les coûts ultérieurs de modifications. XP s'attache à rendre le projet plus <strong>flexible</strong> et ouvert au changement en introduisant des valeurs de base, des principes et des pratiques.</p>
-            <p>Les valeurs de base sont la <strong>Communication</strong>, la <strong>Simplicité</strong>, le <strong>Feedback</strong>, le <strong>Courage</strong> et du <strong>Respect</strong>.</p>
+            <pid="pratiques">Les valeurs de base sont la <strong>Communication</strong>, la <strong>Simplicité</strong>, le <strong>Feedback</strong>, le <strong>Courage</strong> et du <strong>Respect</strong>.</p>
             <p>Les principes de cette méthode ne sont pas nouveaux. L'originalité de la méthode est de les pousser à l'<strong>extrême</strong>.</p>
 
         </article>
@@ -28,7 +35,7 @@
       <div class="clear"></div>
       <section>
         <article class="pratique">
-          <h3>Les pratiques utilisé par l'XP :</h3>
+          <h3 >Les pratiques utilisé par l'XP :</h3>
           <ul>
               <li>la <strong>revue de code</strong> est une bonne pratique, elle sera <strong>faite en permanence</strong> (par un binôme),</li>
               <li>les <strong>tests</strong> sont utiles, ils seront faits <strong>systématiquement</strong> avant chaque mise en œuvre,</li>
@@ -40,16 +47,16 @@
           </ul>
             <h4>Le codage en binome</h4>
           <div class="binome">
-              <img src="img/pair_programming.jpg" alt="Deux programmeurs travaillant en binôme" />
+              <img id="cycle" src="img/pair_programming.jpg" alt="Deux programmeurs travaillant en binôme" />
               <p><strong>La programmation se fait par deux.</strong> Le premier appelé <strong>driver</strong> (ou pilote) tient le clavier. C'est lui qui va travailler sur la portion de code à écrire. Le second appelé <strong>partner</strong> (ou copilote) est là pour l'aider en suggérant de nouvelles possibilités ou en décelant d'éventuels problèmes.<br /> Les développeurs <strong>changent fréquemment de partenaire</strong> ce qui permet d'améliorer la <strong>connaissance collective</strong> de l'application et d'améliorer la <strong>communication au sein de l'équipe</strong>.</p>
           </div>
         </article>
       </section>
       <section>
         <article class="cycle">
-          <h3>Le cycle de developpement.</h3>
+          <h3 >Le cycle de developpement.</h3>
           <img src="img/cycle.png" alt="Schéma du cycle de developpement de l'extreme programming" />
-            <p>L'extreme programming repose sur des <strong>cycles rapides</strong> de développement (des itérations de quelques semaines) dont les étapes sont les suivantes :</p>
+            <p id="video">L'extreme programming repose sur des <strong>cycles rapides</strong> de développement (des itérations de quelques semaines) dont les étapes sont les suivantes :</p>
             <ul>
                 <li>une phase d'exploration détermine les <strong>scénarios "client"</strong> qui seront fournis pendant cette itération</li>
                 <li>l'équipe transforme les scénarios en <strong>tâches à réaliser</strong> et en <strong>tests fonctionnels</strong></li>
@@ -61,7 +68,7 @@
 
       </section>
       <section class="conference">
-        <h3>Conférence sur l'XP par Kent Beck (en anglais)</h3>
+        <h3 >Conférence sur l'XP par Kent Beck (en anglais)</h3>
           <iframe width="780" height="500" src="https://www.youtube.com/embed/d4qldY0g_dI" frameborder="0" allowfullscreen></iframe>
       </section>
       <div class="clear"></div>

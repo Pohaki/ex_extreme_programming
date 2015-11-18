@@ -29,9 +29,13 @@
     margin: 0 auto;
 }
 header{
-    height: 10%;
+    height: 27%;
+    width: 90%;
     border-bottom: 5px solid #EC493C;
+    border-left: 5px solid #EC493C;
+    border-right: 5px solid #EC493C;
     background-color: #F2F2F2;
+    box-shadow: 0px 2px 8px;
 }
 h1{
     display: inline;
@@ -126,7 +130,11 @@ footer{
     margin-top: 5%;
     background-color: #F2F2F2;
     border-top: 5px solid #EC493C;
+    border-left:5px solid #EC493C;
+    border-right:5px solid #EC493C;
     box-sizing: border-box;
+    box-shadow:0px -1px 9px ;
+    
 }
 footer > h5 {
     margin-left: 7%;
