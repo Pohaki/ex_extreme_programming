@@ -45,15 +45,15 @@ h1{
     text-shadow: 1px 2px 4px 3px;
     font-family: 'kaushan_scriptregular';
 }
-h1 > ul > li > a{
+nav > ul > li > a{
     color: black;
     text-decoration: none;
 }
-h1 > ul > li > a:hover{
+nav > ul > li > a:hover{
     color: black;
     text-decoration: underline;
 }
-h1 > ul > li > a:visited{
+nav > ul > li > a:visited{
     color: grey;
 }
 
